@@ -26,9 +26,15 @@ def long_planeteer_calls(array)
   return false 
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  range1 = 0..array.size-1
+  range2 = 0..cheese_types.size-1
+  for i in range1
+    for j in range2
+    
+    end
+  end
 end
 
 puts find_the_cheese(["ben", "cheddar"])
