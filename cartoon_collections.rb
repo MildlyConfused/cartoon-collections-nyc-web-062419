@@ -32,7 +32,7 @@ def find_the_cheese(array)
   range2 = 0..cheese_types.size-1
   for i in range1
     for j in range2
-    
+      
     end
   end
 end
