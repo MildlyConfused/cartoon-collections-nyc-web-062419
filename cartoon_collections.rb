@@ -32,9 +32,13 @@ def find_the_cheese(array)
   range2 = 0..cheese_types.size-1
   for i in range1
     for j in range2
-      
+      if array[i] == cheese_types[j]
+        puts array[i]
+        return array[i]
+      end
     end
   end
+  return nil
 end
 
 puts find_the_cheese(["ben", "cheddar"])
